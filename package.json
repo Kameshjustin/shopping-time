@@ -20,7 +20,7 @@
     "start": "vite",
     "build": "vite build",
     "preview": "pnpm serve -s dist",
-    "test": "vite test",
+    "test": "vitest",
     "server": "node src/database/index.mjs",
     "check-deps": "npm-check"
   },
