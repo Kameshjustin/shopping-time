@@ -92,7 +92,7 @@ pipeline {
             echo 'Pipeline failed ...'
         }
 
-        finally {
+        always {
             echo 'Pipeline run completed ....'
         }
     }
