@@ -46,7 +46,7 @@ pipeline {
 
         stage('Testing application') {
             steps {
-                sh 'npm test -- --run --passWithNoTests'
+                sh 'npm test -- --run'
             }
         }
 
