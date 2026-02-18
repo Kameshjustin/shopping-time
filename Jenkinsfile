@@ -45,7 +45,7 @@ pipeline {
 
         stage('Testing application') {
             steps {
-                sh 'npm test'
+                sh 'npm test -- --run'
             }
         }
 
