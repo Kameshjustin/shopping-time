@@ -39,7 +39,7 @@ pipeline {
 
         stage('Build application') {
             steps {
-                sh 'npm run dev'
+                sh 'npm run build'
             }
         }
 
