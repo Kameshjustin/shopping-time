@@ -73,9 +73,7 @@ pipeline {
         stage('Create new container') {
             steps {
                 sh '''
-                   docker run -d -p 3000:3000 \ 
-                   --name=$DOCKER_CONTAINER \
-                   $DOCKER_IMGAGE     
+                   docker run -d -p 3000:3000 --name=$DOCKER_CONTAINER $DOCKER_IMGAGE     
 
                 '''
                 echo 'Container created successfully'
